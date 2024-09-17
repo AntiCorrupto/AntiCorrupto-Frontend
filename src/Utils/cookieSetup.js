@@ -1,7 +1,7 @@
 import cookie from 'js-cookie';
 import axios from 'axios';
 import { isSessionValid, logoutUser } from './API/authAPI';
-import { backendURL } from '../config';
+import { backendURL } from './config';
 
 const API_URL = `${backendURL}auth`;
 
